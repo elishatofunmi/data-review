@@ -75,21 +75,21 @@ class PyGame:
             if x.lower() == "yes":
                 Guess_my_number(start, stop, step)
             else:
-                break
+                pass
         elif x < value:
             print "value entered is less"
             x = raw_input("Do you want to play this game again: ")
             if x.lower() == "yes":
                 Guess_my_number(start, stop, step)
             else:
-                break
+                pass
         else:
             print 'value entered is more'
             x = raw_input("Do you want to play this game again: ")
             if x.lower() == "yes":
                 Guess_my_number(start, stop, step)
             else:
-                break
+                pass
         return 
     
 
